@@ -11,5 +11,18 @@ input=gets.strip
 
 index = input_to_index (input)
 
+<<<<<<< HEAD
 move(board,index)
 display_board (board)
+=======
+board = [" "," "," "," "," "," "," "," "," "]
+
+# Code your CLI Here
+puts "Welcome to Tic Tac Toe!"
+puts "Enter the index"
+gets.strip
+puts "Enter the value"
+val = gets.strip
+index = input_to_index (input)
+bored = move(board, index, val)
+>>>>>>> 25d8a5d39e3d9470c8ad6ccf52195b694f7ad883
